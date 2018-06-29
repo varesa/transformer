@@ -1,0 +1,9 @@
+BASE = "/var/spool/forms/"
+
+PAIRS = (
+    ("mobiili_inbox", "mobiili_outbox"),
+    ("desktop_inbox", "desktop_outbox")
+)
+
+RECIPIENT = "gpg.recipient@domain.com"
+
