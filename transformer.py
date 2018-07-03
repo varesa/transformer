@@ -6,7 +6,6 @@ from os import path
 
 import subprocess
 from time import sleep
-import traceback
 
 from config import *
 
@@ -34,7 +33,6 @@ while True:
             if os.path.isfile(dstfile):
                 os.remove(srcfile)
             else:
-                traceback.print_exc()
                 raise Exception("Something went wrong")
 
     sleep(30)
